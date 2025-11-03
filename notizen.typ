@@ -320,7 +320,6 @@
 )
 
 - 5-10 Teilnehmer:innen
-- _TODO_ Youtube video anschauen
 
 == Shadowing
 
@@ -344,4 +343,3 @@
 - Strukturierter Output
 - Langfristig
 - In Situ / Snippet
-- _TODO_ Youtube video anschauen
