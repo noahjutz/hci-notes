@@ -27,31 +27,43 @@
 
 = Definitionen
 
-#table(columns: 2,
-  [Human Computer Interaction \ (VL01)], [
-    "Maschine erfüllt Zweck für Mensch"
-    - Hewett: Use, Context, Development
-    - Trajan: Input-Output Loop
-    - Bengler: Mensch-Maschine System
-    - PACT Framework: *P*\eople, *A*\ctivities, *C*\ontext, *T*\echnology
-  ],
-  [User Interface Design \ (VL02)], [
-    - Graphical, Gesture-based, Voice-controlled
-  ],
-  [User Experience \ (VL03)], [
-    "Perceptions and responses resulting from (anticipated) use"
-    - Emotional ansprechend
-    - Subjektiv
-    - Vor, während, nach der Nutzung
-  ],
-  [Usability \ Benutzerfreundlichkeit \ (VL03)], [
-    DIN 9241: "Ziele erreichen"
-    - Effektiv: Grad der Verfollständigung
-    - Effizient: Ressourcenaufwand (Zeit, Geld)
-    - Zufriedenstellend: Emotionale Erwartungen
-    - Nur während der Nutzung
-  ],
-)
+#[
+  #show table.cell.where(x: 0): it => {
+    set align(end + horizon)
+    show regex("\(.*\)"): it => {
+      set text(gray)
+      show: strong.with(delta: -300)
+      it
+    }
+    show: strong
+    it
+  }
+  #table(columns: 2,
+    [Human Computer Interaction (VL01)], [
+      "Maschine erfüllt Zweck für Mensch"
+      - Hewett: Use, Context, Development
+      - Trajan: Input-Output Loop
+      - Bengler: Mensch-Maschine System
+      - PACT Framework: *P*\eople, *A*\ctivities, *C*\ontext, *T*\echnology
+    ],
+    [User Interface Design (VL02)], [
+      - Graphical, Gesture-based, Voice-controlled
+    ],
+    [User Experience (VL03)], [
+      "Perceptions and responses resulting from (anticipated) use"
+      - Emotional ansprechend
+      - Subjektiv
+      - Vor, während, nach der Nutzung
+    ],
+    [Usability \ Benutzerfreundlichkeit \ (VL03)], [
+      DIN 9241: "Ziele erreichen"
+      - Effektiv: Grad der Verfollständigung
+      - Effizient: Ressourcenaufwand (Zeit, Geld)
+      - Zufriedenstellend: Emotionale Erwartungen
+      - Nur während der Nutzung
+    ],
+  )
+]
 
 == User Experience
 
