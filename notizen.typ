@@ -203,6 +203,7 @@
     table.header[#emoji.woman User][#emoji.detective Expert:in]
   )[
     - Lead User: Repräsentiert Durchschnitt
+    - Extreme User: Ungewöhnlich, besondere Bedürfnisse
   ]
   #table(
     table.header[#emoji.microscope Kontrollierte Umgebung][#emoji.city Kontextabhängig]
@@ -221,11 +222,11 @@
 - Summativ: Evaluation nach
 
 #place(end)[2025-11-03 VL05]
-== Datenerhebungsmethoden
+= Datenerhebungsmethoden
 
 --- () ---
 
-=== Umfrage
+== Umfrage
 - Institutional Review Board (IRB)
 - Oberflächliche Daten
 - Probleme
@@ -251,7 +252,7 @@
   - Kurz
 - _TODO_ Zusammenfassendes youtube video anschauen
 
-=== Fokus Gruppe
+== Fokus Gruppe
 
 - 5-10 Teilnehmer:innen
 - _TODO_ Youtube video anschauen
@@ -263,25 +264,23 @@
 
 --- (Observation) ---
 
-=== Beobachten
+== Beobachten
 
 - (Halb-)strukturiert
 
-=== Shadowing
+== Shadowing
 - Natürlich
 - Kontrolliert (Aufgaben sind vorgegeben)
 - Partizipativ
 
-=== Contextual Inquiry
+== Contextual Inquiry
 
 - Ad hoc interview im Kontext
 
-=== Diary Studies
+== Diary Studies
 
 - Verhaltensweisen, Gewohnheiten, Szenarien
 - Strukturierter Output
 - Langfristig
 - In Situ / Snippet
 - _TODO_ Youtube video anschauen
-
-== Extreme Users
