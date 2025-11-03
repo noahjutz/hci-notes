@@ -265,7 +265,7 @@
 
 == Umfrage
 
-#emoji.bubble.speech Attitudonal #emoji.numbers Quantitativ
+#emoji.bubble.speech Attitudonal #emoji.numbers#emoji.page.pencil Quantitativ/Qualitativ
 
 #table(
   columns: 2,
@@ -279,6 +279,11 @@
     - Teilnehmer kreuzt auffällig $->$ nicht sofort aussortieren
     - Unmögliche Angabe $->$ ggf. entfernen oder gesamten Bogen entfernen
     - Rechtschreibfehler $->$ nur bei klarer Intention korregieren
+  ],
+  [Response Bias], [
+    - Acquiescence: Neigung, zuzustimmen
+    - Social Desirability: Underreport frowned upon behavior
+    - Recency: Overreport most recent experience
   ],
   [Fragen], [
     - Offen
@@ -298,7 +303,6 @@
   - Mehrere Fragen in einer Frage
 - Gute Fragen
   - Kurz
-- _TODO_ Zusammenfassendes youtube video anschauen
 
 == Fokus Gruppe
 
