@@ -304,13 +304,19 @@
 
 #emoji.bubble.speech Attitudonal #emoji.page.pencil Qualitativ
 
+#table(
+  columns: 2,
+  [Zweck], [
+    - Brainstorming
+    - Feedback
+  ],
+  [Planung], [
+    - Screening Fragebogen
+  ]
+)
+
 - 5-10 Teilnehmer:innen
 - _TODO_ Youtube video anschauen
-- Zweck
-  - Brainstorming
-  - Feedback
-- Planung
-  - Screening Fragebogen
 
 == Shadowing
 
