@@ -179,7 +179,7 @@
   2. Quantitativ
     - Fehlerraten
 
-== Methoden
+== Analysemethoden
 
 #[
   #set table(columns: (1fr,)*2)
@@ -205,22 +205,20 @@
     - Lead User: Repräsentiert Durchschnitt
   ]
   #table(
-      table.header[#emoji.microscope Kontrollierte Umgebung][#emoji.city Kontextabhängig]
-    )[
-      - Vergleichbar
-    ][
-      - Legale Einschränkung: z.B. autonome Autos
-    ]
+    table.header[#emoji.microscope Kontrollierte Umgebung][#emoji.city Kontextabhängig]
+  )[
+    - Vergleichbar
+  ][
+    - Legale Einschränkung: z.B. autonome Autos
+  ]
+  #table(
+    table.header[#emoji.magnify Primary Research][#emoji.books Secondary Research]
+  )
 ]
 
 - Generativ: Nutzereinsichten
 - Formativ: Evaluation während
 - Summativ: Evaluation nach
-
-=== Planung
-
-- Primary Research
-- Secondary Research
 
 #place(end)[2025-11-03 VL05]
 == Datenerhebungsmethoden
