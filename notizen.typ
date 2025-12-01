@@ -389,3 +389,65 @@ _TODO_ Video anschauen s36
   - Nested Doll
   - Tabbed View
   - Filter
+
+#place(end)[[2025-12-01 VL07]]
+= Informationsarchitektur
+
+== Navigation
+
+- Known Item $->$ Suchleiste
+- Exploratory
+- Unknown
+- Re-Finding $->$ Labels
+
+== Card Sorting & Tree Testing
+
+- *Open Ended:* Beliebig gruppieren, dann bezeichnen
+- *Closed:* Container vorgegeben
+- *Semi-open:* Zuerst closed, im Nachgang beliebig ändern
+
+Anfang Designprozess _open_, zum Schluss _closed_.
+
+- *Tree Testing:* User muss anhand Struktur der Sitemap etwas finden
+
+== 8 Prinzipien
+
++ *Objects:* Jedes objekt individuell betrachten
++ *Choices:* Wenige Auswahlmöglichkeiten
++ *Disclosure:* Längere Prozesse unterteilen
++ *Exemplars:* Visuelle Unterstützung durch Bilder
++ *Front Doors:* Die meisten User kommen _nicht_ von der Landing Page
++ *Multiple classification:* Mehrere Methoden um das gleiche zu erreichen sind gut
++ *Focused Navigation:* Nachvollziehbare, konsistente Navigation
++ *Growth:* Vorbereitung auf Wachstum
+
+== Atomic Design
+
+- *Atom:* Nicht weiter reduzierbar, z.B. Textfeld, Button, ...
+- *Molekül:* Zusammengehörige Teile, z.B. Suchleiste
+- *Organismus:* Nahe aneinander liegende Komponenten, z.B. Header
+- *Templates:* Gerüst der gesamten Seite
+
+= Gestaltungsrichtlinien
+
+- *Jakob's Law:* Users spend most of their time on other websites, not your website.
+  Therefore, they decide the conventions you have to abide by.
+- *Fitt's Law:* Interaktionsraum. $"Fläche" times "Distanz" -> "Zeit"$
+- *Hick's Law:* Cognitive Load
+  - _TODO_ Video anschauen
+
+= 10 Usability Heuristics
+
+- Rule of thumb
+- Evaluation:
+
++ Sichtbarkeit des Systemstatus
++ Übereinstimmung von System und Wirklichkeit
++ Nutzerkontrolle und Freiheit
++ Beständigkeit und Standards
++ Fehlervermeidung
++ Wiedererkennung statt Erinnerung
++ *Flexibilität und Effizienz:* Versteckte Shortcuts für Pro User
++ Ästhetisches und minimalistisches Design
++ Hilfestellung beim Erkennen, Bewerten und Beheben von Fehlern
++ Hilfe und Dokumentation
