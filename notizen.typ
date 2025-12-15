@@ -1,3 +1,5 @@
+#import "@preview/gentle-clues:1.2.0": *
+
 #set heading(numbering: "1.1")
 #set text(lang: "de")
 
@@ -475,4 +477,40 @@ Anfang Designprozess _open_, zum Schluss _closed_.
 - F-/Z-Schema
 - Fibonacci
 
+#place(end)[[2025-12-15 VL09]]
+= High Fidelity Prototype
+
 == Style Guide
+
+- Grid
+- Farbe
+
+= Usability Test
+
+#clue(title: [Prüfungsleistung])[
+    2 Usability Tests pro Person
+]
+
+- Moderiert vs Unmoderiert
+    - Moderiert: Nicht quantifizierbar
+    - Moderiert: Zwischenfragen beeinflussen verhalten
+- Ablauf
+    #idea(title: none)[
+        - Bei randomisierten tests zum Homescreen resetten
+        - *Checklist:* Wochen im Vorfeld planen
+        - *Usability Testplan* verwenden
+        - *Think Aloud Protocol*
+        - Feedback
+            - Product reaction cards
+            - *Feedback Capture Grid*
+            - AttrakDif
+            - *Usability Scale:* Fester Fragebogen
+                - 0 - 68 - 100
+    ]
+    + Begrüßung, Ziel, Briefing, Einverständniserklärung
+    + Usability Test
+        - Instruktion, Fragen von Teilnehmer:in
+            #idea(title: none)[
+                Einzelne Zettel verwenden; randomisiert und keine spoiler.
+            ]
+    + Fragebogen, Interview
